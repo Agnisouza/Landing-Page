@@ -11,14 +11,17 @@
         <form action="" id="register">
             <p>Cadastre-se</p>
             <div class="field">
-                <input type="text" placeholder="Digite seu nome" required>
+                <input type="nome" placeholder="Digite seu nome" required>
             </div>
             <div class="field">
                 <input type="email" placeholder="Digite seu e-mail" required>
             </div>
             <div class="field">
-                <label for=""><input type="radio"name="gender" value="M"><span>Masculino</span></label>
-                <label for=""><input type="radio"name="gender" value="F"><span>Feminino</span></label>
+                <input type="date" placeholder="data de nascimento" required>
+            </div>
+            <div class="field">
+                <label for=""><input type="radio" name="gender" value="M"><span>Masculino</span></label>
+                <label for=""><input type="radio" name="gender" value="F"><span>Feminino</span></label>
             </div>
             <button type="button">Registrar</button>
         </form>
@@ -26,13 +29,57 @@
             <div class="header-border">
                 <div id="logo">SENAI</div>
             </div>
-            <ul>
+              <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">SOBRE</a></li>
                 <li><a href="#">CONTATO</a></li>
-            </ul>
+              </ul>
         </nav>
 
     </header>
+    <section class="home">
+        <main class="container">
+            <div id="title"><h1>Landing Page</h1></div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam libero vel voluptatum ipsum quaerat laudantium reprehenderit maiores exercitationem, nobis, iusto aspernatur! Tempore, repudiandae. Quia corporis placeat soluta laboriosam, in nulla.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam temporibus, sunt hic, labore sed facilis nihil, minus delectus aspernatur ut rerum natus quaerat assumenda distinctio beatae quos obcaecati quam aut?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quos corrupti porro maxime, animi veritatis minima, eaque eos aut accusantium et modi corporis, beatae dolore! Numquam nemo accusamus eos ipsum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi totam, ipsam voluptatem consequatur nam placeat, quo libero expedita quod quidem repellendus. Accusantium saepe tempora asperiores officiis quos dolore, corrupti commodi.</p>
+            <div id="sobre">
+                <h2 class="about">Sobre a Empresa</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae odit cupiditate voluptate tempora eligendi facilis, similique praesentium molestias minus soluta quia iure unde nihil. Hic ullam temporibus natus accusantium delectus.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias aliquam facere eius, accusamus necessitatibus sint. Error omnis veniam dolorem, reiciendis velit odio ipsa, sequi, voluptatem maxime nulla vero et eveniet?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum aliquid, obcaecati itaque quod commodi, inventore repudiandae distinctio illum doloribus a quae praesentium consequuntur! Similique officia temporibus, nemo libero alias inventore?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quia ullam accusantium porro, eum quo voluptas molestiae vero quaerat in iure magnam, minima atque velit ex saepe natus enim fugiat.</p>
+            </div>
+            <section class="contact-container">
+                <h2 id="contact">Entre em Contato</h2>
+                <p> Mande uma mensagem para avaliar nossa empresa</p>
+                <form action="class="form-container>
+                    <div class="inputs">
+                        <input type="text"name="name" placeholder="Digite seu nome">
+                        <input type="text"name="email" placeholder="Digite seu email">
+                    </div>
+                    <div>
+                        <textarea name="message" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </section>
+        </main>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; Curso de Criação de páginas Web com marketing digital</p>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#title">HOME</a></li>
+                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#contact">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
